@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class beecrowd_1004 {
+    public static void main(String[] args) {
+
+        Scanner Sc = new Scanner(System.in);
+
+        int A = Sc.nextInt();
+
+        int B = Sc.nextInt();
+
+        int prod = A*B;
+
+        System.out.println("PROD = "+prod);
+
+        Sc.close();
+    }
+}
